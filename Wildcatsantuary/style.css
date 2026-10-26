@@ -100,6 +100,12 @@ h2 {
     font-family: "Fira Code", monospace;
     font-size: 22px;
 }
+
+h4 {
+     font-family: "Fira Code", monospace;
+    font-size: 14px; 
+}
+
 .fira-code-regular {
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
@@ -226,6 +232,8 @@ transform: translateY(-2px) scale(1.05);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .img-container h2 {
@@ -252,10 +260,24 @@ position: relative;
     white-space: nowrap;
 }
 
+.h4snow, .h4bob, .h4ocelot, .h4lynx, .h4cheetah, .h4sand {
+      font-size: 14px;
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+    position: relative;
+    transform: translateY(-50%);
+    top: 350px;
+    white-space: nowrap;
+    white-space: normal;
+}
+
 .missionimg1, .missionimg2, .missionimg3, .missionimg4, .missionimg5, .missionimg6 {
     width: 100%;
     max-width: 300px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .missionimg1 {
@@ -442,6 +464,41 @@ position: relative;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 70px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form input[type="text"], .form textarea {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.form button[type="submit"] {
+    background-color: #D78E3D;
+    color: #f0fcb5;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 16px;
+    /* 20 Mobile 28 Dskt on figma */
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #E88061;
+    cursor: pointer;
 }
 
 
