@@ -9,17 +9,26 @@ img {
 }
 
 body {
-    background-color: #e29162;
+    background-color: #D78E3D;
     margin: 0;
     font-family: "Fira Code", monospace;
 }
 
 header {
     margin: 0;
-    background-color: #BCC562;
+    background-color: #0f1f02;
 text-align: center;
 
 }
+
+.welcome {
+    color: #b5f869;
+}
+
+.welcomep {
+    color: #ffef77;
+}
+
 
 header img {
     width: 100%;
@@ -76,6 +85,7 @@ background-color: #D78E3D;
 
 .btn-visit:hover {
     background-color: #E88061;
+    color: #e0fc65;
     cursor: pointer;
 }
 
@@ -117,7 +127,7 @@ h4 {
 
 /* Nav */
 .nav-container {
-    background-color: #a2c581;
+    background-color: #213a0c;
     padding: 15px 30px;
     width: 90%;
     max-width: 1200px;
@@ -140,9 +150,13 @@ h4 {
 }
 
 .nav-links a {
-    color:#000000;
+    color:#ffbf77;
     text-decoration: none;
     white-space: nowrap;
+}
+
+.nav-links a:hover {
+    color: #bbfd9d;
 }
 
 .nav-donate-btn {
@@ -159,7 +173,8 @@ h4 {
 }
 
 .nav-donate-btn:hover {
-    background-color: #E88061;
+    background-color: #d46c4c;
+    color: #e0fc65;
     cursor: pointer;
     transform: translateY(-2px) scale(1.05);
 }
@@ -176,15 +191,16 @@ display: block;
 transform: translateY(-2px) scale(1.05);
 }
 
-.event, .visit, .store {
+.event, .visit, .store, .donate {
 transition: color 0.3s ease;
 display: inline-block;
 transition: transform 0.3s ease;
 }
 
-.event:hover, .visit:hover, .store:hover {
+.event:hover, .visit:hover, .store:hover, .donate:hover {
 color: #905746;
 transform: translateY(-2px) scale(1.05);
+text-decoration: none;
 }
 
 /* Mobile Styles */
@@ -249,7 +265,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
-background-color: #d0ff01;
+background-color: #BCC562;
 flex-wrap: wrap;
 max-width: 300px;
 border-radius: 15px;
@@ -347,7 +363,7 @@ border-radius: 15px;
 }
 
 .visit-container {
-    background-color: #a2c581;
+    background-color: #88b65e;
     padding: 15px 30px;
     width: 90%;
     max-width: 1200px;
@@ -465,7 +481,7 @@ border-radius: 15px;
 }
 
 .contactbackground {
-     background-color: #BCC562;
+     background-color: #88b65e;
      padding-bottom: 50px;
      margin-bottom: 50px;
      margin-top: 50px;
@@ -483,18 +499,23 @@ border-radius: 15px;
     padding-bottom: 70px;
     flex-direction: column;
     justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .form input[type="text"], .form textarea {
     display: block;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
     width: 100%;
     max-width: 350px;
     padding: 10px 12px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
-    align-items: center;
-    align-content: center;
+    
+  
     box-sizing: border-box;
     font-family: monospace;
 }
@@ -507,7 +528,8 @@ border-radius: 15px;
     border-radius: 25px;
     font-size: 16px;
     /* 20 Mobile 28 Dskt on figma */
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     transition: background-color 0.3s ease;
     cursor: pointer;
     border: none;
@@ -520,7 +542,8 @@ border-radius: 15px;
 
 
 footer {
-    background-color: #a2c581;
+    background-color: #1c3605;
+    color:  #ffef77;
     text-align: center;
     padding: 10px 0px;
     clear: both;
@@ -529,6 +552,23 @@ footer {
     position: relative;
     position: relative;
     display: block;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.event, .visit, .store, .donate {
+    flex-direction: row;
+    /* text-decoration: none; */
+    color: #f6ff77;
+    margin-bottom: 10px;
 }
 
 .logo-footer {
@@ -541,6 +581,7 @@ footer {
 .number {
     font-weight: bold;
     padding: 5px 0;
+    margin-top: 15px;
 }
 
 .email {
@@ -615,8 +656,8 @@ main, .donate-content {
     position: static;
     float: none;
 
-    background-color: #D78E3D;
-    color: #d0ff01;
+    background-color: #d38429;
+    color: #e0fc65;
     text-decoration: none;
     padding: 10px 24px;
     border-radius: 20px;
@@ -630,7 +671,7 @@ main, .donate-content {
 }
 
 .paypal-btn:hover, .cashapp-btn:hover {
-    background-color: #E88061;
+    background-color: #d66948;
     cursor: pointer;
     white-space: nowrap;
 }
