@@ -16,9 +16,8 @@ body {
 
 header {
     margin: 0;
-    background-color: #0f1f02;
-text-align: center;
-
+    background-color: #2a4712;
+    text-align: center;
 }
 
 .welcome {
@@ -127,7 +126,7 @@ h4 {
 
 /* Nav */
 .nav-container {
-    background-color: #213a0c;
+    background-color: #2e4e13;
     padding: 15px 30px;
     width: 90%;
     max-width: 1200px;
@@ -156,7 +155,7 @@ h4 {
 }
 
 .nav-links a:hover {
-    color: #bbfd9d;
+    color: #fce626;
 }
 
 .nav-donate-btn {
@@ -521,7 +520,7 @@ border-radius: 15px;
 }
 
 .form button[type="submit"] {
-    background-color: #D78E3D;
+    background-color: #cf8a3a;
     color: #f0fcb5;
     text-decoration: none;
     padding: 8px 16px;
@@ -656,8 +655,8 @@ main, .donate-content {
     position: static;
     float: none;
 
-    background-color: #d38429;
-    color: #e0fc65;
+    background-color: #bb7524;
+    color: #e7ff7b;
     text-decoration: none;
     padding: 10px 24px;
     border-radius: 20px;
