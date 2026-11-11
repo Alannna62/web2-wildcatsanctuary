@@ -9,7 +9,7 @@ img {
 }
 
 body {
-    background-color: #D78E3D;
+    background-color: #e9ff86;
     margin: 0;
     font-family: "Fira Code", monospace;
 }
@@ -655,7 +655,7 @@ main, .donate-content {
     position: static;
     float: none;
 
-    background-color: #bb7524;
+    background-color: #cf7d1f;
     color: #e7ff7b;
     text-decoration: none;
     padding: 10px 24px;
